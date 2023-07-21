@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+  Copyright 2023 sacerdos
+  Copyright 2023 Diego Iván M.E
+
+  GtkSourceView is free software; you can redistribute it and/or
+  modify it under the terms of the GNU Lesser General Public
+  License as published by the Free Software Foundation; either
+  version 2.1 of the License, or (at your option) any later version.
+
+  GtkSourceView is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+  Lesser General Public License for more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with this library; if not, see <http://www.gnu.org/licenses/>.
+
+-->
+<style-scheme id="com.catpuccin.frappe" _name="Catppuccin Frappe" version="1.0">
+  <author>sacerdos and Diego Iván M.E</author>
+  <_description>Soothing pastel theme for Gedit</_description>
+
+  <metadata>
+    <property name="variant">light</property>
+  </metadata>
+
+  <!-- Named Colors -->
+  <color name="frappe_base"              value="#303446"/>
+  <color name="frappe_blue"              value="#8CAAEE"/>
+  <color name="frappe_crust"             value="#232634"/>
+  <color name="frappe_flamingo"          value="#EEBEBE"/>
+  <color name="frappe_green"             value="#A6D189"/>
+  <color name="frappe_lavender"          value="#BABBF1"/>
+  <color name="frappe_mantle"            value="#292C3C"/>
+  <color name="frappe_maroon"            value="#EA999C"/>
+  <color name="frappe_mauve"             value="#CA9EE6"/>
+  <color name="frappe_overlay0"          value="#737994"/>
+  <color name="frappe_overlay1"          value="#838BA7"/>
+  <color name="frappe_overlay2"          value="#949CBB"/>
+  <color name="frappe_peach"             value="#EF9F76"/>
+  <color name="frappe_pink"              value="#F4B8E4"/>
+  <color name="frappe_red"               value="#E78284"/>
+  <color name="frappe_rosewater"         value="#F2D5CF"/>
+  <color name="frappe_sapphire"          value="#85C1DC"/>
+  <color name="frappe_sky"               value="#99D1DB"/>
+  <color name="frappe_subtext0"          value="#A5ADCE"/>
+  <color name="frappe_subtext1"          value="#B5BFE2"/>
+  <color name="frappe_surface0"          value="#51576D"/>
+  <color name="frappe_surface1"          value="#51576D"/>
+  <color name="frappe_surface2"          value="#626880"/>
+  <color name="frappe_teal"              value="#81C8BE"/>
+  <color name="frappe_text"              value="#C6D0F5"/>
+  <color name="frappe_yellow"            value="#E5C890"/>
+
+  <!-- Global Styles -->
+  <style name="background-pattern"       background="frappe_base"/>
+  <style name="bracket-match"            foreground="frappe_mauve"/>
+  <style name="bracket-mismatch"         background="frappe_peach" foreground="frappe_text"/>
+  <style name="current-line"             background="frappe_surface1"/>
+  <style name="cursor"                   foreground="frappe_rosewater"/>
+  <style name="draw-spaces"              foreground="frappe_text"/>
+  <style name="line-numbers"             background="frappe_crust" foreground="frappe_text"/>
+  <style name="right-margin"             background="frappe_crust" foreground="frappe_text"/>
+  <style name="search-match"             background="frappe_blue" foreground="frappe_text"/>
+  <style name="secondary-cursor"         foreground="frappe_rosewater"/>
+  <style name="selection"                background="frappe_surface2" foreground="frappe_text"/>
+  <style name="text"                     background="frappe_base" foreground="frappe_text"/>
+
+  <!-- Defaults -->
+  <style name="def:comment"              foreground="frappe_overlay0"/>
+  <style name="def:constant"             foreground="frappe_green"/>
+  <style name="def:deletion"             strikethrough="true"/>
+  <style name="def:doc-comment-element"  italic="true"/>
+  <style name="def:emphasis"             italic="true"/>
+  <style name="def:error"                foreground="frappe_maroon" bold="true"/>
+  <style name="def:floating-point"       foreground="frappe_lavender"/>
+  <style name="def:heading"              foreground="frappe_teal" bold="true"/>
+  <style name="def:identifier"           foreground="frappe_blue"/>
+  <style name="def:inline-code"          foreground="frappe_green"/>
+  <style name="def:insertion"            underline="single"/>
+  <style name="def:link-destination"     foreground="frappe_blue" italic="true" underline="single"/>
+  <style name="def:link-symbol"          foreground="frappe_blue" bold="true"/>
+  <style name="def:link-text"            foreground="frappe_rosewater"/>
+  <style name="def:list-marker"          foreground="frappe_teal" bold="true"/>
+  <style name="def:net-address"          italic="true" underline="single"/>
+  <style name="def:note"                 foreground="frappe_blue" bold="true"/>
+  <style name="def:preformatted-section" foreground="frappe_green"/>
+  <style name="def:preprocessor"         foreground="frappe_teal"/>
+  <style name="def:shebang"              foreground="frappe_overlay0" bold="true"/>
+  <style name="def:special-char"         foreground="frappe_lavender"/>
+  <style name="def:special-constant"     foreground="frappe_lavender"/>
+  <style name="def:statement"            foreground="frappe_sapphire" bold="true"/>
+  <style name="def:string"               foreground="frappe_green"/>
+  <style name="def:strong-emphasis"      foreground="frappe_yellow" bold="true"/>
+  <style name="def:thematic-break"       foreground="frappe_green" bold="true"/>
+  <style name="def:type"                 foreground="frappe_maroon" bold="true"/>
+  <style name="def:warning"              foreground="frappe_peach"/>
+
+</style-scheme>

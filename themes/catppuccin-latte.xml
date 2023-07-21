@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+  Copyright 2023 sacerdos
+  Copyright 2023 Diego Iván M.E
+
+  GtkSourceView is free software; you can redistribute it and/or
+  modify it under the terms of the GNU Lesser General Public
+  License as published by the Free Software Foundation; either
+  version 2.1 of the License, or (at your option) any later version.
+
+  GtkSourceView is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+  Lesser General Public License for more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with this library; if not, see <http://www.gnu.org/licenses/>.
+
+-->
+<style-scheme id="com.catpuccin.latte" _name="Catppuccin Latte" version="1.0">
+  <author>sacerdos and Diego Iván M.E</author>
+  <_description>Soothing pastel theme for GtkSourceView5</_description>
+
+  <metadata>
+    <property name="variant">light</property>
+  </metadata>
+
+  <!-- Named Colors -->
+  <color name="latte_base"               value="#EFF1F5"/>
+  <color name="latte_blue"               value="#1E66F5"/>
+  <color name="latte_crust"              value="#DCE0E8"/>
+  <color name="latte_flamingo"           value="#DD7878"/>
+  <color name="latte_green"              value="#40A02B"/>
+  <color name="latte_lavender"           value="#7287FD"/>
+  <color name="latte_mantle"             value="#E6E9EF"/>
+  <color name="latte_maroon"             value="#E64553"/>
+  <color name="latte_mauve"              value="#8839EF"/>
+  <color name="latte_overlay0"           value="#9CA0B0"/>
+  <color name="latte_overlay1"           value="#8C8FA1"/>
+  <color name="latte_overlay2"           value="#7C7F93"/>
+  <color name="latte_peach"              value="#FE640B"/>
+  <color name="latte_pink"               value="#EA76CB"/>
+  <color name="latte_red"                value="#D20F39"/>
+  <color name="latte_rosewater"          value="#DC8A78"/>
+  <color name="latte_sapphire"           value="#209FB5"/>
+  <color name="latte_sky"                value="#04A5E5"/>
+  <color name="latte_subtext0"           value="#6C6F85"/>
+  <color name="latte_subtext1"           value="#5C5F77"/>
+  <color name="latte_surface0"           value="#CCD0DA"/>
+  <color name="latte_surface1"           value="#BCC0CC"/>
+  <color name="latte_surface2"           value="#ACB0BE"/>
+  <color name="latte_teal"               value="#179299"/>
+  <color name="latte_text"               value="#4C4F69"/>
+  <color name="latte_yellow"             value="#DF8E1D"/>
+
+  <!-- Global Styles -->
+  <style name="background-pattern"       background="latte_base"/>
+  <style name="bracket-match"            foreground="latte_mauve"/>
+  <style name="bracket-mismatch"         background="latte_peach" foreground="latte_text"/>
+  <style name="current-line"             background="latte_surface0"/>
+  <style name="cursor"                   foreground="latte_rosewater"/>
+  <style name="draw-spaces"              foreground="latte_text"/>
+  <style name="line-numbers"             background="latte_crust" foreground="latte_text"/>
+  <style name="right-margin"             background="latte_crust" foreground="latte_text"/>
+  <style name="search-match"             background="latte_blue" foreground="latte_text"/>
+  <style name="secondary-cursor"         foreground="latte_rosewater"/>
+  <style name="selection"                background="latte_surface2" foreground="latte_text"/>
+  <style name="text"                     background="latte_base" foreground="latte_text"/>
+
+  <!-- Defaults -->
+  <style name="def:comment"              foreground="latte_overlay0"/>
+  <style name="def:constant"             foreground="latte_green"/>
+  <style name="def:deletion"             strikethrough="true"/>
+  <style name="def:doc-comment-element"  italic="true"/>
+  <style name="def:emphasis"             italic="true"/>
+  <style name="def:error"                foreground="latte_maroon" bold="true"/>
+  <style name="def:floating-point"       foreground="latte_lavender"/>
+  <style name="def:heading"              foreground="latte_teal" bold="true"/>
+  <style name="def:identifier"           foreground="latte_blue"/>
+  <style name="def:inline-code"          foreground="latte_green"/>
+  <style name="def:insertion"            underline="single"/>
+  <style name="def:link-destination"     foreground="latte_blue" italic="true" underline="single"/>
+  <style name="def:link-symbol"          foreground="latte_blue" bold="true"/>
+  <style name="def:link-text"            foreground="latte_rosewater"/>
+  <style name="def:list-marker"          foreground="latte_teal" bold="true"/>
+  <style name="def:net-address"          italic="true" underline="single"/>
+  <style name="def:note"                 foreground="latte_blue" bold="true"/>
+  <style name="def:preformatted-section" foreground="latte_green"/>
+  <style name="def:preprocessor"         foreground="latte_teal"/>
+  <style name="def:shebang"              foreground="latte_overlay0" bold="true"/>
+  <style name="def:special-char"         foreground="latte_lavender"/>
+  <style name="def:special-constant"     foreground="latte_lavender"/>
+  <style name="def:statement"            foreground="latte_sapphire" bold="true"/>
+  <style name="def:string"               foreground="latte_green"/>
+  <style name="def:strong-emphasis"      foreground="latte_yellow" bold="true"/>
+  <style name="def:thematic-break"       foreground="latte_green" bold="true"/>
+  <style name="def:type"                 foreground="latte_maroon" bold="true"/>
+  <style name="def:warning"              foreground="latte_peach"/>
+
+  <!-- C -->
+  <style name="c:type"                   foreground="latte_yellow" bold="true"/>
+
+</style-scheme>

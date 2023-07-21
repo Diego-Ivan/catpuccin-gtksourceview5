@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+  Copyright 2023 sacerdos
+  Copyright 2023 Diego Iván M.E
+
+  GtkSourceView is free software; you can redistribute it and/or
+  modify it under the terms of the GNU Lesser General Public
+  License as published by the Free Software Foundation; either
+  version 2.1 of the License, or (at your option) any later version.
+
+  GtkSourceView is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+  Lesser General Public License for more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with this library; if not, see <http://www.gnu.org/licenses/>.
+
+-->
+<style-scheme id="com.catpuccin.macchiato" _name="Catpuccin Macchiato" version="1.0">
+  <author>sacerdos and Diego Iván M.E</author>
+  <_description>Soothing pastel theme for Gedit</_description>
+
+  <metadata>
+    <property name="variant">dark</property>
+  </metadata>
+
+  <!-- Named Colors -->
+  <color name="macchiato_base"           value="#24273A"/>
+  <color name="macchiato_blue"           value="#8AADF4"/>
+  <color name="macchiato_crust"          value="#181926"/>
+  <color name="macchiato_flamingo"       value="#F0C6C6"/>
+  <color name="macchiato_green"          value="#A6DA95"/>
+  <color name="macchiato_lavender"       value="#B7BDF8"/>
+  <color name="macchiato_mantle"         value="#1E2030"/>
+  <color name="macchiato_maroon"         value="#EE99A0"/>
+  <color name="macchiato_mauve"          value="#C6A0F6"/>
+  <color name="macchiato_overlay0"       value="#6E738D"/>
+  <color name="macchiato_overlay1"       value="#8087A2"/>
+  <color name="macchiato_overlay2"       value="#939AB7"/>
+  <color name="macchiato_peach"          value="#F5A97F"/>
+  <color name="macchiato_pink"           value="#F5BDE6"/>
+  <color name="macchiato_red"            value="#ED8796"/>
+  <color name="macchiato_rosewater"      value="#F4DBD6"/>
+  <color name="macchiato_sapphire"       value="#7DC4E4"/>
+  <color name="macchiato_sky"            value="#91D7E3"/>
+  <color name="macchiato_subtext0"       value="#A5ADCB"/>
+  <color name="macchiato_subtext1"       value="#B8C0E0"/>
+  <color name="macchiato_surface0"       value="#363A4F"/>
+  <color name="macchiato_surface1"       value="#494D64"/>
+  <color name="macchiato_surface2"       value="#5B6078"/>
+  <color name="macchiato_teal"           value="#8BD5CA"/>
+  <color name="macchiato_text"           value="#CAD3F5"/>
+  <color name="macchiato_yellow"         value="#EED49F"/>
+
+  <!-- Global Styles -->
+  <style name="background-pattern"       background="macchiato_mantle"/>
+  <style name="bracket-match"            foreground="macchiato_mauve"/>
+  <style name="bracket-mismatch"         background="macchiato_peach" foreground="macchiato_text"/>
+  <style name="current-line"             background="macchiato_surface0"/>
+  <style name="cursor"                   foreground="macchiato_rosewater"/>
+  <style name="draw-spaces"              foreground="macchiato_text"/>
+  <style name="line-numbers"             background="macchiato_crust" foreground="macchiato_text"/>
+  <style name="right-margin"             foreground="macchiato_text"/>
+  <style name="search-match"             background="macchiato_blue" foreground="macchiato_text"/>
+  <style name="secondary-cursor"         foreground="macchiato_rosewater"/>
+  <style name="selection"                background="macchiato_surface2" foreground="macchiato_text"/>
+  <style name="text"                     background="macchiato_base" foreground="macchiato_text"/>
+
+  <!-- Defaults -->
+  <style name="def:comment"              foreground="macchiato_overlay0"/>
+  <style name="def:constant"             foreground="macchiato_green"/>
+  <style name="def:deletion"             strikethrough="true"/>
+  <style name="def:doc-comment-element"  italic="true"/>
+  <style name="def:emphasis"             italic="true"/>
+  <style name="def:error"                foreground="macchiato_maroon" bold="true"/>
+  <style name="def:floating-point"       foreground="macchiato_lavender"/>
+  <style name="def:heading"              foreground="macchiato_teal" bold="true"/>
+  <style name="def:identifier"           foreground="macchiato_blue"/>
+  <style name="def:inline-code"          foreground="macchiato_green"/>
+  <style name="def:insertion"            underline="single"/>
+  <style name="def:link-destination"     foreground="macchiato_blue" italic="true" underline="single"/>
+  <style name="def:link-symbol"          foreground="macchiato_blue" bold="true"/>
+  <style name="def:link-text"            foreground="macchiato_rosewater"/>
+  <style name="def:list-marker"          foreground="macchiato_teal" bold="true"/>
+  <style name="def:net-address"          italic="true" underline="single"/>
+  <style name="def:note"                 foreground="macchiato_blue" bold="true"/>
+  <style name="def:preformatted-section" foreground="macchiato_green"/>
+  <style name="def:preprocessor"         foreground="macchiato_teal"/>
+  <style name="def:shebang"              foreground="macchiato_overlay0" bold="true"/>
+  <style name="def:special-char"         foreground="macchiato_lavender"/>
+  <style name="def:special-constant"     foreground="macchiato_lavender"/>
+  <style name="def:statement"            foreground="macchiato_sapphire" bold="true"/>
+  <style name="def:string"               foreground="macchiato_green"/>
+  <style name="def:strong-emphasis"      foreground="macchiato_yellow" bold="true"/>
+  <style name="def:thematic-break"       foreground="macchiato_green" bold="true"/>
+  <style name="def:type"                 foreground="macchiato_maroon" bold="true"/>
+  <style name="def:warning"              foreground="macchiato_peach"/>
+
+</style-scheme>
